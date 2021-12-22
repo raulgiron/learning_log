@@ -8,4 +8,3 @@ from .models import Entry
 
 admin.site.register(Topic)
 admin.site.register(Entry)
-
