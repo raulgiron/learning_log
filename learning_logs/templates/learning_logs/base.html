@@ -1,6 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<header>
 <p>
   <a href="{% url 'learning_logs:index' %}">Learning Log</a> -
   <a href="{% url 'learning_logs:topics' %}">Topics</a>
 </p>
+</header>
+<style>
+.footer {
+  position: fixed;
+  left: 1%;
+  bottom: 1%;
+}
+</style>
+<div class="footer">
+  <p>&copy; Copyright 2006<script>new Date().getFullYear()>2006&&document.write(" - "+new Date().getFullYear());</script>, Ing. Raúl Girón.</p>
+</div>
+
+</body>
+</html>
 
 {% block content %}{% endblock content %}
